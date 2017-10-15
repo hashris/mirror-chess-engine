@@ -1,0 +1,30 @@
+{
+  "name": "mirror",
+  "version": "1.0.0",
+  "description": "Mirror chess engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashris/mirror.git"
+  },
+  "keywords": [
+    "mirror",
+    "chess"
+  ],
+  "author": "Harish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashris/mirror/issues"
+  },
+  "homepage": "https://github.com/hashris/mirror#readme",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "express": "^4.15.3",
+    "long": "^3.2.0",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0"
+  }
+}
